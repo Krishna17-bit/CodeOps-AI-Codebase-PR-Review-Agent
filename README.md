@@ -22,7 +22,6 @@ It is designed as a client-grade AI engineering demo, not a generic chatbot. The
 - Refactor roadmap
 - README/documentation generator
 - Audit JSON, Markdown report, CSV findings, and generated tests ZIP exports
-- Black/white UI with minimal orange and blue accents
 
 ## Quick start
 
@@ -65,6 +64,3 @@ The UI does not display provider or model branding. The app will still run witho
 6. Open **Ask Codebase** and ask: `Where is refund logic implemented and what risks exist?`
 7. Open **Docs + Export** to download the audit package.
 
-## Safety
-
-Never commit `.env` or real credentials. This repo includes a `.gitignore` that protects `.env`, `.venv`, outputs, logs, and cache folders.
